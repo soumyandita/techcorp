@@ -70,10 +70,10 @@ techcorp.sql
 Update your database credentials inside the PHP configuration file:
 
 ```php
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "techcorp";
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpassword = "";
+$dbdatabase = "techcorp";
 ```
 
 ---
@@ -91,8 +91,8 @@ http://localhost/techcorp
 ## 📂 Project Structure
 
 * `/api` → REST API endpoints
-* `/assets` → CSS, JS, Bootstrap files
-* `/includes` → Database connection & reusable PHP files
+* `/js` → JS files
+* `/css` → css files
 * `techcorp.sql` → Database file
 
 ---
