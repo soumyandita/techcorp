@@ -112,6 +112,7 @@ http://localhost/techcorp
 * Ensure Apache and MySQL are running before accessing the project
 * Import the database (`techcorp.sql`) before running
 * Do not expose sensitive credentials in public repositories
+* For Admin Login: Username is "admin" and password is "admin123"
 
 ---
 
