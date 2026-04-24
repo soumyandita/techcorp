@@ -1,0 +1,29 @@
+body {
+    /* padding-top: 70px; */
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.card {
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#result{
+    font-size: 14px;
+    padding-left: 10px;
+}
